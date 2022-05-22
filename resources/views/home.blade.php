@@ -59,6 +59,7 @@ https://templatemo.com/tm-558-klassy-cafe
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                             <li class="scroll-to-section"><a href="#about">About</a></li>
+                           
                            	
                         <!-- 
                             <li class="submenu">
@@ -83,6 +84,24 @@ https://templatemo.com/tm-558-klassy-cafe
                             </li>
                             <!-- <li class=""><a rel="sponsored" href="https://templatemo.com" target="_blank">External URL</a></li> -->
                             <li class="scroll-to-section"><a href="#reservation">Contact Us</a></li> 
+                            <li>
+                                @if (Route::has('login'))
+                                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+                                    @auth
+                                    <x-app-layout>
+   
+                                    </x-app-layout>
+                                    @else
+                                        <li><a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a></li>
+                
+                                        @if (Route::has('register'))
+                                           <li><a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a></li> 
+                                        @endif
+                                    @endauth
+                                </div>
+                            @endif
+                            </li>
+                            
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
