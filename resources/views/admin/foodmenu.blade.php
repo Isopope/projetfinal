@@ -37,6 +37,26 @@
 
           </form>
       </div>
+      <table bgcolor="black">
+         <tr>
+            <th style="padding:30px">Nom du plat</th>
+            <th style="padding:30px">Prix</th>
+            <th style="padding:30px">Description</th>
+            <th style="padding:30px">Image</th>
+            <th style="padding:30px">Action</th>
+         </tr>
+         @foreach($data as $data)
+         <tr align="center">
+            <td>{{$data->title}}</td>
+            <td>{{$data->price}}</td>
+            <td>{{$data->description}}</td>
+            <td><img  height="100" width="100"src="/foodimage/{{$data->image}}"</td>
+            <td><a href="{{url('/deletemenu',$data->id)}}">Supprimer</a></td>
+            <td><a href="{{url('/updateview',$data->id)}}">Modifier</a></td>
+            
+         </tr>
+         @endforeach
+      </table>
     </div>
   
 @include("admin.adminscript")
