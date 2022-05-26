@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Food;
 use App\Models\User;
+use App\Models\foodchef;
 
 class HomeController extends Controller
 {
@@ -22,7 +23,8 @@ class HomeController extends Controller
 
     public function index(){
         $donnee=food::all();
-        return view("home",compact("donnee"));
+        $data=foodchef::all();
+        return view("home",compact("donnee","data"));
     }
 
 }
