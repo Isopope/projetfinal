@@ -9,8 +9,9 @@
             </div>
         </div>
         <div class="row">
+            @foreach ($data as $data )
             <div class="col-lg-4">
-                @foreach ($data as $data )
+               
                 <div class="chef-item">
                     <div class="thumb">
                         <div class="overlay"></div>
@@ -19,16 +20,17 @@
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                         </ul>
-                        <img src="chefimage/{{$data->image}}" alt="Chef #1">
+                        <img height="200" width="200"src="chefimage/{{$data->image}}" alt="Chef #1">
                     </div>
                     <div class="down-content">
                         <h4>{{$data->name}}</h4>
                         <span>{{$data->sepeciality}}</span>
                     </div>
                 </div>
-                @endforeach
+                
                
             </div>
+            @endforeach
             <div class="col-lg-4">
                
             </div>
