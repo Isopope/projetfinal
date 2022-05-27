@@ -24,6 +24,8 @@
                           </div>
                         </div>
                     </div>
+                    <input type="number" name="quantity" min="1" style="width:80px;">
+                    <input type="submit" value="Ajouter au panier">
                 </div>
                 @endforeach
                
