@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <title>Klassy Cafe - Restaurant HTML Template</title>
+    <title>ucaoresto - Restaurant</title>
 <!--
     
 TemplateMo 558 Klassy Cafe
@@ -139,10 +139,10 @@ https://templatemo.com/tm-558-klassy-cafe
                 <div class="col-lg-4">
                     <div class="left-content">
                         <div class="inner-content">
-                            <h4>KlassyCafe</h4>
-                            <h6>THE BEST EXPERIENCE</h6>
+                            <h1 style="font-size:30px;">UCAO RESTO</h1>
+                            <h6>Le meilleur des restaurants au Togo</h6>
                             <div class="main-white-button scroll-to-section">
-                                <a href="#reservation">Make A Reservation</a>
+                                <a href="#reservation">Faire une reservation</a>
                             </div>
                         </div>
                     </div>
@@ -186,19 +186,19 @@ https://templatemo.com/tm-558-klassy-cafe
                 <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="left-text-content">
                         <div class="section-heading">
-                            <h6>About Us</h6>
-                            <h2>We Leave A Delicious Memory For You</h2>
+                            <h6>A propos de nous</h6>
+                            <h2>Repartez avec satisfaction</h2>
                         </div>
-                        <p>Klassy Cafe is one of the best <a href="https://templatemo.com/tag/restaurant" target="_blank" rel="sponsored">restaurant HTML templates</a> with Bootstrap v4.5.2 CSS framework. You can download and feel free to use this website template layout for your restaurant business. You are allowed to use this template for commercial purposes. <br><br>You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please contact us for more information.</p>
+                        <p>UCAO RESTO est le meilleur restaurant a lome au togo, qui offre a la fois des repas de qualités, un services irreprochable,une hygiene saine , et un service traiteur tres rapides afin de satisfaire nos clients les plus exigeants.Ne perdez pas plus de temps, rejoignez nous vite........</p>
                         <div class="row">
                             <div class="col-4">
-                                <img src="assets/images/about-thumb-01.jpg" alt="">
+                                <img src="assets/images/about-thumb-01.jpg" alt="suschi">
                             </div>
                             <div class="col-4">
-                                <img src="assets/images/about-thumb-02.jpg" alt="">
+                                <img src="assets/images/about-thumb-02.jpg" alt="poisson braise">
                             </div>
                             <div class="col-4">
-                                <img src="assets/images/about-thumb-03.jpg" alt="">
+                                <img src="assets/images/about-thumb-03.jpg" alt="soupe">
                             </div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@ https://templatemo.com/tm-558-klassy-cafe
                     <div class="right-content">
                         <div class="thumb">
                             <a rel="nofollow" href="http://youtube.com"><i class="fa fa-play"></i></a>
-                            <img src="assets/images/about-video-bg.jpg" alt="">
+                            <img src="assets/images/about-video-bg.jpg" alt="nos locaux">
                         </div>
                     </div>
                 </div>
@@ -247,9 +247,9 @@ https://templatemo.com/tm-558-klassy-cafe
                                 <div class="row">
                                     <div class="col-lg-6 offset-lg-3">
                                         <ul>
-                                          <li><a href='#tabs-1'><img src="assets/images/tab-icon-01.png" alt="">Breakfast</a></li>
-                                          <li><a href='#tabs-2'><img src="assets/images/tab-icon-02.png" alt="">Lunch</a></a></li>
-                                          <li><a href='#tabs-3'><img src="assets/images/tab-icon-03.png" alt="">Dinner</a></a></li>
+                                          <li><a href='#tabs-1'><img src="assets/images/tab-icon-01.png" alt="">Petit dejeuner</a></li>
+                                          <li><a href='#tabs-2'><img src="assets/images/tab-icon-02.png" alt="">Dejeune</a></a></li>
+                                          <li><a href='#tabs-3'><img src="assets/images/tab-icon-03.png" alt="">Diner</a></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -264,31 +264,31 @@ https://templatemo.com/tm-558-klassy-cafe
                                                 <div class="left-list">
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-01.png" alt="">
-                                                            <h4>Fresh Chicken Salad</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <img src="assets/images/tab-item-01.png" alt="salade">
+                                                            <h4>Salade</h4>
+                                                            <p>Un repas sain et sans gras,ideal pour les vegetariens</p>
                                                             <div class="price">
-                                                                <h6>$10.50</h6>
+                                                                <h6>5000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-02.png" alt="">
-                                                            <h4>Orange Juice</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <img src="assets/images/tab-item-02.png" alt="jus d'orange">
+                                                            <h4>Jus d'orange</h4>
+                                                            <p>Ideal pour etancher sa soif et tres reiche en vitamine C.</p>
                                                             <div class="price">
-                                                                <h6>$8.50</h6>
+                                                                <h6>1500</h6>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-03.png" alt="">
-                                                            <h4>Fruit Salad</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <img src="assets/images/tab-item-03.png" alt="salade au fruit">
+                                                            <h4>Salade au fruit</h4>
+                                                            <p>Les meilleurs fruits sont utilisés dans cette composition.</p>
                                                             <div class="price">
-                                                                <h6>$9.90</h6>
+                                                                <h6>2000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -300,31 +300,31 @@ https://templatemo.com/tm-558-klassy-cafe
                                                 <div class="right-list">
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-04.png" alt="">
-                                                            <h4>Eggs Omelette</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <img src="assets/images/tab-item-04.png" alt="omellete">
+                                                            <h4>Omelette</h4>
+                                                            <p>Tres riche et bon pour la croissance.</p>
                                                             <div class="price">
-                                                                <h6>$6.50</h6>
+                                                                <h6>1000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-05.png" alt="">
-                                                            <h4>Dollma Pire</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <img src="assets/images/tab-item-05.png" alt="sauce sesame">
+                                                            <h4>sauce sesame</h4>
+                                                            <p>On en parle plus , ca deja fait ses preuves.</p>
                                                             <div class="price">
-                                                                <h6>$5.00</h6>
+                                                                <h6>3000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-06.png" alt="">
-                                                            <h4>Omelette & Cheese</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <img src="assets/images/tab-item-06.png" alt="omelette et fromage">
+                                                            <h4>Omelette et fromage</h4>
+                                                            <p>Pour ceux qui veulent prendre legerement en poids.</p>
                                                             <div class="price">
-                                                                <h6>$4.10</h6>
+                                                                <h6>2000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -515,9 +515,9 @@ https://templatemo.com/tm-558-klassy-cafe
                 </div>
                 <div class="col-lg-4 col-xs-12">
                     <div class="left-text-content">
-                        <p>© Copyright Klassy Cafe Co.
+                        <p>© Copyright UCAO RESTO.
                         
-                        <br>Design: TemplateMo</p>
+                        <br>Design: Yves and Humbert</p>
                     </div>
                 </div>
             </div>

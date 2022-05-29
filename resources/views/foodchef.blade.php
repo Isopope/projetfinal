@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-lg-4 offset-lg-4 text-center">
                 <div class="section-heading">
-                    <h6>Our Chefs</h6>
-                    <h2>We offer the best ingredients for you</h2>
+                    <h6>Nos Chefs</h6>
+                    <h2>Les meilleurs chefs pour de meilleurs repas</h2>
                 </div>
             </div>
         </div>
@@ -20,7 +20,7 @@
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                         </ul>
-                        <img height="200" width="200"src="chefimage/{{$data->image}}" alt="Chef #1">
+                        <img height="200" width="200"src="chefimage/{{$data->image}}" alt="Chef">
                     </div>
                     <div class="down-content">
                         <h4>{{$data->name}}</h4>

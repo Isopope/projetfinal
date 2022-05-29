@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="section-heading">
-                    <h6>Our Menu</h6>
-                    <h2>Our selection of cakes with quality taste</h2>
+                    <h6>Notre Menu</h6>
+                    <h2>Notre selection des meilleurs menus Togolais</h2>
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
                 <form action="{{url('/addcart',$donnee->id)}}" method="post">
                     @csrf
                     <div class="item">
-                        <div style="background-image: url('/foodimage/{{$donnee->image}}')" class='card'>
+                        <div style="background-image: url('/foodimage/{{$donnee->image}}')" class='card' alt="menus">
                             <div class="price"><h6>{{$donnee->price}}</h6></div>
                             <div class='info'>
                               <h1 class='title'>{{$donnee->title}}</h1>
