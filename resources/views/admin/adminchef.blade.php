@@ -30,21 +30,21 @@
         </div>
     </form>
 
-    <table bgcolor="black">
+    <table style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center; width: 600px;">
         <tr>
-            <th style="padding:30px">Nom</th>
-            <th style="padding:30px">Specialite</th>
-            <th style="padding:30px">Image</th>
-            <th style="padding:30px">Action</th>
-            <th style="padding:30px">Action2</th>
+            <th style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;background-color: blue;color: white;">Nom</th>
+            <th style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;background-color: blue;color: white;">Specialite</th>
+            <th style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;background-color: rgb(88, 14, 36);color: white;">Image</th>
+            <th style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;background-color: blue;color: white;">Action</th>
+            <th style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;background-color: blue;color: white;">Action2</th>
         </tr>
         @foreach($data as $data)
-        <tr align="center">
-            <td>{{$data->name}}</td>
-            <td>{{$data->speciality}}</td>
-            <td><img height="100" width="100"src="/chefimage/{{$data->image}}"></td>
-            <td><a href="{{url('/updatechef',$data->id)}}">Mettre a jour</a></td>
-            <td><a href="{{url('/deletechef',$data->id)}}">Supprimer</a></td>
+        <tr>
+            <td style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;">{{$data->name}}</td>
+            <td style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;">{{$data->speciality}}</td>
+            <td style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;"><img height="100" width="100"src="/chefimage/{{$data->image}}"></td>
+            <td style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;"><a href="{{url('/updatechef',$data->id)}}">Mettre a jour</a></td>
+            <td style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;"><a href="{{url('/deletechef',$data->id)}}">Supprimer</a></td>
 
         </tr>
 

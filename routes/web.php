@@ -30,7 +30,14 @@ Route::get("/updatechef/{id}",[AdminController::class,"updatechef"]);
 Route::post("/updatefoodchef/{id}",[AdminController::class,"updatefoodchef"]);
 Route::get("/foodmenu",[AdminController::class,"foodmenu"]);
 Route::get("/deletechef/{id}",[AdminController::class,"deletechef"]);
+Route::post("/addcart/{id}",[HomeController::class,"addcart"]);
 Route::post("/uploadchef",[AdminController::class,"uploadchef"]);
+Route::get("/showcart/{id}",[HomeController::class,"showcart"]);
+Route::post("/orderconfirm",[HomeController::class,"orderconfirm"]);
+Route::get("/remove/{id}",[HomeController::class,"remove"]);
+
+
+
 Route::get("/deleteuser/{id}",[AdminController::class,"deleteuser"]);
 Route::get("/redirects",[HomeController::class,"redirects"]);
 Route::middleware([

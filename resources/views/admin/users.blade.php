@@ -23,20 +23,20 @@
           @include("admin.navbar")
 
           <div style="position:relative;top:60px;right:-150px">
-            <table bgcolor="grey" border="3px">
+            <table style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center; width: 600px;">
               <tr>
-                <th style="padding:30px">Nom</th>
-                <th style="padding:30px">Email</th>
-                <th style="padding:30px">Action</th>
+                <th style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;background-color: blue;color: white;">Nom</th>
+                <th style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;background-color: blue;color: white;">Email</th>
+                <th style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;background-color: blue;color: white;">Action</th>
               </tr>
               @foreach ($data as $data )
                 <tr align="center">
-                  <th >{{$data->name}}</th>
-                  <th>{{$data->email}}</th>
+                  <th style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;background-color: blue;color: white;" >{{$data->name}}</th>
+                  <th style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;background-color: blue;color: white;">{{$data->email}}</th>
                   @if ($data->usertype=="0")
-                     <th><a href="{{url('/deleteuser',$data->id)}}">Supprimer</a></th>
+                     <th style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;background-color: blue;color: white;"><a href="{{url('/deleteuser',$data->id)}}">Supprimer</a></th>
                      @else
-                     <th><a>Non autorise</a></th>
+                     <th style="padding: 20px;border: 1px solid lightgray;border-collapse: collapse;text-align: center;background-color: blue;color: white;"><a>Non autorise</a></th>
                   @endif
                   
                 </tr>
